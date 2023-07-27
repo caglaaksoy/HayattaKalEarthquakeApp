@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/anasayfaitem"
+            android:icon="@drawable/home"
+            android:title="Ana Sayfa"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/toplanmaalaniitem"
+            android:icon="@drawable/people"
+            android:title="AFAD Toplanma Alanı Sorgulama"
+            android:checkable="true"/>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Depreme Hazırlık">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/depremcantasiitem"
+                        android:icon="@drawable/bag"
+                        android:title="Deprem Çantası"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/depremanindayapitem"
+                        android:icon="@drawable/warning"
+                        android:title="Deprem Anında Yapılacaklar"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/depremsonrasiitem"
+                        android:icon="@drawable/warning"
+                        android:title="Deprem Sonrası Yapılacaklar"
+                        android:checkable="true"/>
+
+
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Diğer">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/bagisyapitem"
+                        android:icon="@drawable/heart"
+                        android:title="Bağış Yap"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/hakkimizdaitem"
+                        android:icon="@drawable/info"
+                        android:title="Hakkımızda"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/bizeulasitem"
+                        android:icon="@drawable/contact"
+                        android:title="Bize Ulaşın"
+                        android:checkable="true"/>
+
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

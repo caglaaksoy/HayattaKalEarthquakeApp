@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Earthquake_App</string>
+    <string name="menu_open">Open Navigation</string>
+    <string name="menu_close">Close Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bagistext">Deprem bölgesindeki insanlara destek olun!
+
+
+Bağış yapmak için tıklayın.</string>
+    <string name="toplanmaalanitext">Bu hizmeti kullanarak afet ve acil durum toplanma alanlarını sorgulayabilirsiniz.
+
+Afet ve acil durum toplanma alanları herhangi bir afet sırasında toplanılmaya uygun güvenli alanlardır.</string>
+    <string name="bizeulasaciklama">Görüşleriniz bizim için önemlidir.
+Sizlere daha iyi hizmet sunabilmemiz için görüş ve önerilerinizi lütfen bizimle paylaşın.</string>
+    <string name="suaciklama">Acil durumlarda hayati önem taşıyan temiz içme suyu sağlar. Kişi başına en az 3 günlük su miktarını içeren su şişelerini çantanıza eklemeyi unutmayın. </string>
+    <string name="montaciklama">Montlar, soğuk hava koşullarında vücudu korumak ve konforlu bir şekilde kalmanızı sağlamak için önemli bir giyim eşyasıdır. Acil durumlarda veya doğal afetlerde, deprem çantasında bir mont bulundurmak, dış etkenlere karşı korunmanızı sağlar ve sağlığınızı korur. </string>
+    <string name="cakiaciklama">Küçük bir çok amaçlı bıçak, ihtiyaç duyulan kesme, açma veya sıyırma işlemlerinde kullanılabilir. </string>
+    <string name="cakmakaciklama">Acil durumda ateş yakmak veya ışık sağlamak için kullanılır. </string>
+    <string name="feneraciklama">Acil durumlar için kullanılan bir el feneri, elektrik kesintisi durumunda aydınlatma sağlamak için kullanılır. </string>
+    <string name="ilkyardimaciklama">Temel yara bakım malzemeleri, bandajlar, antiseptik solüsyonlar ve ilaçlar içeren bir ilk yardım seti, yaralanmalara veya hastalıklara müdahale etmek için kullanılır. </string>
+    <string name="yemekaciklama">Hazır yiyecekler veya uzun raf ömrü olan gıdalar (konserve, kurutulmuş meyve ve sebzeler vb.) acil durumlarda beslenme ihtiyacını karşılamak için kullanılır. </string>
+    <string name="tulumaciklama">Uyku tulumları, acil durumlarda uyku için temel bir ihtiyacı karşılamak amacıyla kullanılır. Hem sıcaklığı koruyarak hem de rahatlık sağlayarak uyku kalitesini artırır. Deprem çantasında uyku tulumu bulundurmak, acil durumlarda konforlu ve güvenli bir uyku sağlamak için önemlidir. </string>
+    <string name="sarjaciklama">Acil durumlarda iletişimi sürdürmek için cep telefonu, radyo veya diğer elektronik cihazları şarj etmek için pil ve şarj cihazları kullanılır. </string>
+    <string name="paraaciklama">Deprem çantasında nakit para bulundurmak, acil durumlarda anında ödeme yapabilme yeteneğinizi sağlar. Ancak, nakit paranın güvende tutulması önemlidir. Güvenli bir yere yerleştirilmeli ve düzenli olarak kontrol edilmelidir. Ayrıca, uygun miktarlarda nakit paranın yanı sıra küçük bozuk paraları da bulundurmanız önerilir. </string>
+</resources>

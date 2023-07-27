@@ -1,0 +1,80 @@
+package com.example.earthquake_app;
+
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Button;
+
+
+public class BagisFragment extends Fragment {
+
+    private WebView webView;
+    private Button button;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_bagis, container, false);
+
+        Button afadBagisBtn = rootView.findViewById(R.id.afadbagisbtn);
+        Button ahbapBagisBtn = rootView.findViewById(R.id.ahbapbagisbtn);
+        final WebView webView = rootView.findViewById(R.id.webView);
+
+        // WebView ayarlarını yapılandır
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+
+        // WebView yüklemesini takip etmek için WebViewClient kullan
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+                // WebView yüklenme tamamlandığında butonu gizle
+                afadBagisBtn.setVisibility(View.GONE);
+                ahbapBagisBtn.setVisibility(View.GONE);
+            }
+        });
+
+
+        // Butona tıklama işlemlerini dinle
+        afadBagisBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // WebView görünürlüğünü ayarla
+                webView.setVisibility(View.VISIBLE);
+
+                // Belirtilen URL'yi yükle
+                webView.loadUrl("https://www.afad.gov.tr/depremkampanyasi2");
+            }
+        });
+
+        // Butona tıklama işlemlerini dinle
+        ahbapBagisBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // WebView görünürlüğünü ayarla
+                webView.setVisibility(View.VISIBLE);
+
+                // Belirtilen URL'yi yükle
+                webView.loadUrl("https://ahbap.org/bagisci-ol");
+            }
+        });
+
+        return rootView;
+    }
+
+
+
+
+
+
+}

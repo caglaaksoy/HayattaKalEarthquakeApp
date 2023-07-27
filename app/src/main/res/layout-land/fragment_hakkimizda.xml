@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HakkimizdaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="15dp"
+            android:layout_width="133dp"
+            android:layout_height="140dp"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"
+            android:src="@drawable/gazilogo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BİZ KİMİZ?"
+            android:background="@drawable/corner"
+            android:textColor="@color/white"
+            android:paddingStart="25dp"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+
+
+                <MultiAutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Merhaba! Gazi Üniversitesi Bilgisayar Mühendisliği öğrencileri olarak, insanların mobil cihazları aracılığıyla deprem anında ve öncesinde depreme hazırlıklı olmasını sağlamak amacıyla bir deprem uygulaması geliştirdik.Amacımız, deprem sırasında insanları korumak, can kaybını en aza indirmek ve toplumun genel olarak deprem bilincini artırmaktır."
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="168dp" />
+
+                <MultiAutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Uygulamamız, acil durum yönlendirmeleri sunma, güvenli bölgeleri belirleme ve canlı kullanıcı geri bildirimlerine dayalı bilgileri paylaşma gibi özellikler sunuyor.Kullanıcılarımızın deprem anında uygulamamıza erişebilme imkanı sağlamak için sürekli olarak uygulamamızı geliştirmeye ve güncellemeye devam ediyoruz."
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="422dp" />
+
+                <MultiAutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Bizim için en önemli değer, kullanıcılarımızın güvenliği ve memnuniyetidir. Kullanıcı geri bildirimlerini dikkatle takip ediyor ve uygulamamızı sürekli olarak iyileştirmek için bu geri bildirimleri değerlendiriyoruz."
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="422dp" />
+
+                <MultiAutoCompleteTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Geliştirdiğimiz deprem uygulamasını kullanarak, siz de deprem anında daha güvende hissedebilir ve sevdiklerinizi koruyabilirsiniz. Sizlere daha iyi bir gelecek için çözümler sunmaya devam edeceğiz."
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="422dp" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+

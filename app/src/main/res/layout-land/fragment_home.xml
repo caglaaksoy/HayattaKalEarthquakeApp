@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homelinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+            <ImageButton
+                android:id="@+id/fener"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/corner"
+                android:onClick="turnOnFlash"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/flashlight_off"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/duduk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/corner"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/whistleasset"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/corner"
+            android:drawableBottom="@drawable/phone112"
+            android:text="ACİL DURUM ÇAĞRI BUTONU"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acil Durumlar Dışında 112'yi Meşgul Etmeyelim"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
